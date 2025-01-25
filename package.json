@@ -1,0 +1,25 @@
+{
+  "name": "coffee-house",
+  "version": "1.0.0",
+  "description": "Coffee House is an  interactiv website with two pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoineafonin/Coffee-House.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoineafonin/Coffee-House/issues"
+  },
+  "homepage": "https://github.com/antoineafonin/Coffee-House#readme",
+  "devDependencies": {
+    "scss-reset": "^1.4.6",
+    "vite": "^6.0.11"
+  }
+}
