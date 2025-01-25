@@ -1,0 +1,83 @@
+.enjoy {
+    background-image: url("../../../public/images/background-enjoy.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    border-radius: 20px; 
+    overflow: hidden; 
+
+    &__content {
+        width: 530px;
+        height: 444px;
+    }
+
+    &__title {
+        color: $light-color;
+        font-size: 72px;
+
+        span {
+            color: $accent-color;
+            font-style: italic;
+        }
+    }
+
+    &__descr {
+        color: $light-color;
+        padding: 40px 0;
+    }
+
+    &__btn {
+        position: relative;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background-color: $light-color;
+        border-radius: 100px;
+        color: $text-color;
+        font-family: "Inter", serif;
+        font-weight: 600;
+        font-size: 16px;
+        width: 200px;
+        height: 64px;
+        padding: 0 30px; 
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        overflow: hidden;
+        transition: background-color 0.3s ease;
+    
+        span {
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+    
+        &::after {
+            content: url("../../../public/images/coffee-cup.svg"); 
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: calc(50% - 10.5px); 
+            opacity: 0; 
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            transform: translateX(10.5px);
+        }
+    
+        &:hover {
+    
+            span {
+                transform: translateX(-20px); 
+            }
+    
+            &::after {
+                opacity: 1;
+                transform: translateX(40.5px); 
+            }
+        }
+    
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); 
+        }
+    }
+    
+}
