@@ -1,13 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <a class="logo" href="#">
+                        <img
+                            class="logo-img"
+                            src="public/images/logo.svg"
+                            alt="logo"
+                        />
+                    </a>
+                    <nav class="header__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#"
+                                    >Favorite coffee</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">About</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Mobile app</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__btn-wrapper">
+                        <a class="header__btn">Menu</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
 
-    <script type="module" src="src/js/main.js"></script>
-</body>
+        <script type="module" src="src/js/main.js"></script>
+    </body>
 </html>

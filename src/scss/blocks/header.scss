@@ -1,0 +1,35 @@
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    padding: 0 40px;
+}
+
+.menu__link {
+    color: $text-color;
+
+    &:hover {
+        border-bottom: 2px solid $text-color;
+        padding-bottom: 10px;
+        transition: 0.2s ease;
+    }
+}
+
+.header__btn {
+    position: relative;
+
+    &::after {
+        content: url("../../../public/images/coffee-cup.svg");
+        position: absolute;
+        top: -2px;
+        right: -20.5px;
+    }
+}
