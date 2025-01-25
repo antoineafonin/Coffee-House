@@ -1,0 +1,45 @@
+.download {
+    margin: 100px 0;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-size: 60px;
+        padding-bottom: 40px;
+    }
+
+    &__descr {
+        padding-bottom: 40px;
+    }
+
+    &__content-text {
+        width: 630px;
+        height: 342px;
+    }
+
+    &__btns {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__btn {
+        width: 200px;
+        height: 64px;
+        border: 1px solid $text-color;
+        border-radius: 100px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 12px 44px 12px 20px;
+
+        .btn-descr {
+            font-size: 10px;
+        }
+    }
+}
