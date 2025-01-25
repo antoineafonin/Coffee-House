@@ -78,9 +78,9 @@
 
         &:hover {
             background-color: $btn-dark-color;
-
+            
             svg path {
-                fill: $light-color;
+                stroke: $light-color;
             }
         }
     }
