@@ -2,6 +2,7 @@
 @import "_var.scss";
 @import "sections/header.scss";
 @import "sections/enjoy.scss";
+@import "sections/favourite-coffee.scss";
 
 body {
     background-color: $light-color;
@@ -23,6 +24,11 @@ a {
 }
 
 .title {
+    span {
+        color: $accent-color;
+        font-style: italic;
+    }
+
     font-family: "Inter", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -34,4 +40,5 @@ p {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color: $text-color;
 }
