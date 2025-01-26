@@ -1,0 +1,92 @@
+{
+    "coffee": [
+        {
+            "img": "public/images/tabs/coffee/coffee-1.jpg",
+            "title": "Espresso",
+            "descr": "Rich and bold",
+            "price": "$2.50"
+        },
+        {
+            "img": "public/images/tabs/coffee/coffee-2.jpg",
+            "title": "Cappuccino",
+            "descr": "Creamy and smooth",
+            "price": "$3.00"
+        },
+        {
+            "img": "public/images/tabs/coffee/coffee-3.jpg",
+            "title": "Espresso",
+            "descr": "Rich and bold",
+            "price": "$2.50"
+        },
+        {
+            "img": "public/images/tabs/coffee/coffee-4.jpg",
+            "title": "Cappuccino",
+            "descr": "Creamy and smooth",
+            "price": "$3.00"
+        },
+        {
+            "img": "public/images/tabs/coffee/coffee-5.jpg",
+            "title": "Espresso",
+            "descr": "Rich and bold",
+            "price": "$2.50"
+        },
+        {
+            "img": "public/images/tabs/coffee/coffee-6.jpg",
+            "title": "Cappuccino",
+            "descr": "Creamy and smooth",
+            "price": "$3.00"
+        },
+        {
+            "img": "public/images/tabs/coffee/coffee-7.jpg",
+            "title": "Espresso",
+            "descr": "Rich and bold",
+            "price": "$2.50"
+        },
+        {
+            "img": "public/images/tabs/coffee/coffee-8.jpg",
+            "title": "Cappuccino",
+            "descr": "Creamy and smooth",
+            "price": "$3.00"
+        }
+    ],
+    "tea": [
+        {
+            "img": "public/images/tabs/tea/tea-1.jpg",
+            "title": "Green Tea",
+            "descr": "Fresh and light",
+            "price": "$1.50"
+        },
+        {
+            "img": "public/images/tabs/tea/tea-2.jpg",
+            "title": "Black Tea",
+            "descr": "Strong and robust",
+            "price": "$2.00"
+        },
+        {
+            "img": "public/images/tabs/tea/tea-3.jpg",
+            "title": "Green Tea",
+            "descr": "Fresh and light",
+            "price": "$1.50"
+        },
+        {
+            "img": "public/images/tabs/tea/tea-4.jpg",
+            "title": "Black Tea",
+            "descr": "Strong and robust",
+            "price": "$2.00"
+        }
+    ],
+    "dessert": [
+        {
+            "img": "public/images/tabs/dessert/dessert-1.jpg",
+            "title": "Cheesecake",
+            "descr": "Creamy and delicious",
+            "price": "$4.00"
+        },
+        {
+            "img": "public/images/tabs/dessert/dessert-2.jpg",
+            "title": "Brownie",
+            "descr": "Rich and fudgy",
+            "price": "$3.50"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <a class="logo" href="#">
+                        <img
+                            class="logo-img"
+                            src="public/images/logo.svg"
+                            alt="logo"
+                        />
+                    </a>
+                    <nav class="header__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#"
+                                    >Favorite coffee</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">About</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Mobile app</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__btn-wrapper">
+                        <a class="header__btn" href="menu.html">Menu</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="menu">
+            <div class="container">
+                <h1 class="menu__title title">
+                    Behind each of our cups hides an
+                    <span>amazing surprise</span>
+                </h1>
+                <div class="tab__container">
+                    <div class="tab__container-btn">
+                        <button type="button" class="button" data-tab="coffee">
+                            Coffee
+                        </button>
+                        <button type="button" class="button" data-tab="tea">
+                            Tea
+                        </button>
+                        <button type="button" class="button" data-tab="dessert">
+                            Dessert
+                        </button>
+                    </div>
+
+                    <div class="tab__content">
+                        <div id="coffee" class="tab__item active"></div>
+                        <div id="tea" class="tab__item"></div>
+                        <div id="dessert" class="tab__item"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="module" src="src/js/main.js"></script>
+    </body>
+</html>
