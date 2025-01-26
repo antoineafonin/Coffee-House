@@ -18,10 +18,10 @@
         transition: transform 0.3s ease;
 
         &:hover {
-            transform: scale(1.1); /* Увеличиваем весь блок на 10% */
+            transform: scale(1.1); 
 
             img {
-                transform: scale(0.9); /* Уменьшаем изображение внутри на 10% */
+                transform: scale(0.9);
             }
         }
 

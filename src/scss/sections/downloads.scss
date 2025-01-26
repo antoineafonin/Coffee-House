@@ -38,6 +38,24 @@
         align-items: center;
         padding: 12px 44px 12px 20px;
 
+        svg path {
+            fill: none;
+        }
+
+        &:hover {
+            background-color: $btn-dark-color;
+
+            svg path {
+                fill: $light-color;
+                stroke: $light-color;
+            }
+
+            .btn-descr,
+            .btn-title {
+                color: $light-color;
+            }
+        }
+
         .btn-descr {
             font-size: 10px;
         }
