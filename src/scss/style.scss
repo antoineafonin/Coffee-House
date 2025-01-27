@@ -6,7 +6,7 @@
 @import "sections/about.scss";
 @import "sections/downloads.scss";
 @import "sections/footer.scss";
-@import "menu/tab.scss";
+@import "menu/index.scss";
 
 body {
     background-color: $light-color;
@@ -46,11 +46,4 @@ p {
     font-style: normal;
     color: $text-color;
     font-size: 16px;
-}
-
-button {
-    &:hover {
-        transition: 0.2s ease;
-        border: none;
-    }
 }

@@ -57,13 +57,38 @@
     }
 
     &__address {
+        padding-left: 30px;
         li {
+            position: relative;
             margin-bottom: 16px;
             font-family: "Inter", serif;
             font-optical-sizing: auto;
             font-weight: 600;
             font-style: normal;
             font-size: 16px;
+
+            &:hover {
+                border-bottom: 2px solid $light-color;
+                padding-bottom: 10px;
+            }
+        }
+
+        #address::before {
+            content: url("../../../public/images/footer/address.svg");
+            position: absolute;
+            left: -30px;
+        }
+
+        #phone::before {
+            content: url("../../../public/images/footer/phone.svg");
+            position: absolute;
+            left: -30px;
+        }
+
+        #worktime::before {
+            content: url("../../../public/images/footer/time.svg");
+            position: absolute;
+            left: -30px;
         }
     }
 }

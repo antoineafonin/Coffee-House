@@ -38,16 +38,21 @@
         align-items: center;
         padding: 12px 44px 12px 20px;
 
-        svg path {
-            fill: none;
+        svg {
+            path {
+                fill: #403f3d;
+                stroke: none;
+            }
         }
 
         &:hover {
             background-color: $btn-dark-color;
-
+            transition: 0.2s ease;
+            border: none;
+            
             svg path {
-                fill: $light-color;
-                stroke: $light-color;
+                fill: #e1d4c9;
+                stroke: none;
             }
 
             .btn-descr,
