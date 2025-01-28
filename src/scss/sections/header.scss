@@ -43,15 +43,14 @@
 
 @media (max-width: 768px) {
     .burger__menu {
+        box-sizing: border-box;
         border: 1px solid $btn-dark-background;
         border-radius: 100px;
         display: flex;
         align-items: center;
-        padding-top: 18px;
-        padding-bottom: 18px;
-        padding-left: 14px;
-        padding-right: 14px;
-
+        justify-content: center;
+        padding: 18px 14px;
+        
         span {
             display: block;
             width: 16px;
