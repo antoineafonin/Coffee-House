@@ -57,3 +57,11 @@ p {
         margin: 0 auto;
     }
 }
+
+@media (max-width: 380px) {
+    .container {
+        max-width: 360px;
+        padding: 0 5px;
+        margin: 0 auto;
+    }
+}

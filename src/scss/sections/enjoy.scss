@@ -84,3 +84,18 @@
         padding: 100px 98px 100px 60px;
     }
 }
+
+@media (max-width: 380px) {
+    .enjoy {
+        &__content {
+            padding: 60px 16px;
+
+            &-text {
+                max-width: 316px;
+            }
+        }
+        &__title {
+            font-size: 42px;
+        }
+    }
+}
