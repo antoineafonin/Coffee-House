@@ -19,7 +19,7 @@
         transition: transform 0.3s ease;
 
         &:hover {
-            transform: scale(1.1); 
+            transform: scale(1.1);
 
             img {
                 transform: scale(0.9);
@@ -41,9 +41,9 @@
     .about__content-grid-img {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-      }
-    
-      .grid__item:nth-child(n+3) {
+    }
+
+    .grid__item:nth-child(n + 3) {
         display: none;
-      }
+    }
 }

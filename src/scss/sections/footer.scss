@@ -9,7 +9,7 @@
         border-radius: 40px;
 
         &_text-wrapper {
-            width: 530px;
+            width: 568px;
             height: 250px;
         }
     }
@@ -92,4 +92,16 @@
             left: -30px;
         }
     }
+}
+
+@media (max-width: 768px) {
+    .footer__content {
+        flex-wrap: wrap;
+    }
+
+    .footer__contacts {
+        margin-top: 200px;
+    }
+
+
 }
